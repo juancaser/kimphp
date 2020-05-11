@@ -52,6 +52,8 @@ if (php_sapi_name() === 'cli') {
         }
     }
     
-} 
+}else{
+    exit("Wag kanang lumabas ayaw mo sundin ang patakaran!\n");  
+}
 
 ?>
